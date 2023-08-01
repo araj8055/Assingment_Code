@@ -1,7 +1,7 @@
 # Assingment_Code
 import requests
 API_KEY =  '76b823308dcac64c1499b1827abf66d4' #API_KEY Value
-BASE_URL = 'https://api.openweathermap.org/data/2.5/forecast'
+BASE_URL = 'https://samples.openweathermap.org/data/2.5/forecast/hourly?q=London,us&appid=b6907d289e10d714a6e88b30761fae22'
 
 def get_weather(location, date):
     url = f'{BASE_URL}?q={location}&appid={API_KEY}'
