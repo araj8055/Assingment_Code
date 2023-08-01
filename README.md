@@ -1,4 +1,5 @@
-# Assingment_Codeimport requests
+# Assingment_Code
+import requests
 API_KEY =  '76b823308dcac64c1499b1827abf66d4' #API_KEY Value
 BASE_URL = 'https://api.openweathermap.org/data/2.5/forecast'
 
